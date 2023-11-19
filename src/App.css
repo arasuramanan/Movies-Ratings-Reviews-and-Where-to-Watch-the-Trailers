@@ -2,6 +2,7 @@
   background-color: white;
   width: 340px;
   box-shadow: 6px 6px 6px white;
+  height: min-content;
 }
 
 .movie-specs {
@@ -14,6 +15,7 @@
   width: 100%;
   height: 500px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .movie-name {
@@ -35,6 +37,44 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+
 body {
-  background-color: #E0E0E0;
+  /* background-color: #E0E0E0; */
+  /* background-color: #a9e6ff; */
+  background-color: #feffba;
+  font-family: Roboto, sans-serif;
+  
+}
+
+.counter-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.counter-container > button {
+  font-size: 17px;
+
+}
+
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.not-found{
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-details-container{
+  max-width: 750px;
+  padding: 16px;
+}
+
+.router-container {
+  padding: 32px;
 }
