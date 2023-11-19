@@ -30,8 +30,8 @@ function App() {
   return (
     <div className="App">
   {/* <ul>
-  <li><Link to="/">Home</Link></li>
-  <li><Link to="/movies">Movies</Link></li>
+  <li><Link to="/home">Home</Link></li>
+  <li><Link to="/">Movies</Link></li>
   <li><Link to="/movies/add">Add Movies</Link></li>
   <li><Link to="/color-game">Color game</Link></li>
   </ul> */}
