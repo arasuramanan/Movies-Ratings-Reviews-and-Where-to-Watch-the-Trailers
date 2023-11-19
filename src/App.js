@@ -38,8 +38,8 @@ function App() {
 
   <AppBar position="static">
         <Toolbar>
-          <Button color="inherit" onClick={() => navigate('/home')}>Home</Button>
-          <Button color="inherit" onClick={() => navigate('/')}>Movies</Button>
+          <Button color="inherit" onClick={() => navigate('/')}>Home</Button>
+          <Button color="inherit" onClick={() => navigate('/movies')}>Movies</Button>
           <Button color="inherit" onClick={() => navigate('/movies/add')}>Add Movies</Button>
           <Button color="inherit" onClick={() => navigate('/color-game')}>Color game</Button>
         </Toolbar>
